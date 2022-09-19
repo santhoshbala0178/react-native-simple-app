@@ -1,7 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import { Alert, Text, View } from 'react-native';
 import { FlatList, Switch } from 'react-native-gesture-handler';
-import { color } from 'react-native-reanimated';
 import { COLORS } from '../../utils/constants';
 import { ModalContainer, PaletteName, SubmitButton, SubmitButtonText , ColorContainer} from './ColorPaletteModal.style';
  
